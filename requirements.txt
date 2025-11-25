@@ -1,14 +1,27 @@
-# Streamlit Cloud Requirements
+# FastAPI Backend Requirements
 # Core dependencies for the Autonomous QA Agent
 
 # Web Framework
-streamlit>=1.50.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
 
 # HTTP Requests
 requests>=2.31.0
 
-# Selenium for local testing (optional)
+# RAG Pipeline
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+langchain>=0.0.300
+transformers>=4.30.0
+torch>=2.0.0
+
+# Document Parsing
+beautifulsoup4>=4.12.0
+pymupdf>=1.23.0
+
+# Selenium
 selenium>=4.15.0
 
 # Data handling
 python-dotenv>=1.0.0
+pydantic>=2.0.0
